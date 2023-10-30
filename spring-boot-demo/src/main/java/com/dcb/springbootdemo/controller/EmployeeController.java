@@ -33,10 +33,7 @@ public class EmployeeController {
         return employeeService.deleteById(id);
     }
 
-    @GetMapping("/getHealth")
-    public String testHealth(){
-        return "Health is ok";
-    }
+   
 
 
 
