@@ -33,5 +33,8 @@ public class EmployeeController {
         return employeeService.deleteById(id);
     }
 
-
+    @GetMapping("/check")
+    public String getHealth(){
+        return "OK";
+    }
 }
