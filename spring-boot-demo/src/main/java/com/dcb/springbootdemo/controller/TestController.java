@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @GetMapping("/")
     public  String testServ(){
-            System.out.println("this is feature branch tested");
+            System.out.println("this is code need to be deployed to dev");
         return "welcome to spring boot app";
     }
 }
